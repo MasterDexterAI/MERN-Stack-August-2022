@@ -2,7 +2,7 @@
 Full Stack Web Development by MasterDexter Live
 
 
-# Day 1
+### Day 1
 
 Different tags - html, title, body, paragraph, heading 1 to 6, anchor, break row, link, img
 
@@ -27,6 +27,8 @@ Tags - table, th, td, strong, b, em, span, abbr and title attribute, <a href="ht
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel">
   rel attribute in anchor tag
 </a>
+
+#### Interview Questions
 
 What are absolute and relative URLs?
 
