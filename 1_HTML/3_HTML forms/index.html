@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <h1>Forms</h1>
+
+        <form action="thankyou.html" method="post" enctype="application/x-www-form-urlencoded">
+            Firstname: 
+            <input type="text" name="firstname" required />
+            <br>
+            <br>
+            Lastname:
+            <input type="text" name="lastname" />
+            <br>
+            Gender: <br>
+            <input type="radio" name="gender" value="male" /> Male <br>
+            <input type="radio" name="gender" value="female" /> Female<br>
+            <input type="radio" name="gender" value="other" /> Other<br>
+
+            <br>
+            Do you agree with:
+            <input type="checkbox" name="agree" value="i agree" /> I agree with terms and conditions.
+
+            <br><br>
+            Enter your Email:
+            <input type="email" name="emailAddress" />
+            <br>
+            <br>
+            <input type="file" name="file" />
+
+            <br>
+            Username:
+            <input type="text" name="username" />
+            <br>
+            <br>
+            Password:
+            <input type="password" name="password" />
+
+            <input type="reset" value="RESET" />
+
+            <br>
+            <input type="search" name="q" />
+            <br>
+            <textarea name="comment">
+                enter your comment here
+            </textarea>
+            <br>
+            <input type="submit" value="SUBMIT" />
+            <br>           
+
+        </form>
+        <!-- 
+            https://www.google.co.in/search?
+
+            scheme  domain (DNS)  / route ? query string
+            http
+            https
+            ftp
+            file
+         -->
+    </body>
+</html>
