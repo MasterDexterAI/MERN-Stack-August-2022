@@ -58,3 +58,24 @@ enctypes -
 - How to make a button to submit a form.
 - How to reset a form.
 - <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form">How to structure a web form.</a>
+
+# CSS
+
+### Day 4
+
+Selector, Class and id , Comment, border, color, 
+background-  color, image, repeat, attachment, 
+
+Border - style , width, color, shorthand, border-radius
+
+Margin - top, right, bottom, left
+
+Padding - 
+
+What is box model?
+
+Universal selector *
+
+Text align - left, center, justify, text-decoration - overline, none, under-line, line-through, text-transform, text-indent
+
+
