@@ -1,0 +1,35 @@
+a:link{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:active{
+    color: chocolate;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+}
+tr, th, td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+tr:hover{
+    color: red;
+    background-color: aqua;
+}
+
+tr:nth-child(even){
+    background-color: black;
+    color: white;
+}
