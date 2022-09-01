@@ -86,4 +86,8 @@ Table - border, width height, text-align, padding, tr:hover, tr:nth-child(even),
 
 Navigation Bar
 
-Website Layout
+### Day 6
+
+Website Layout using HTML and CSS
+
+
