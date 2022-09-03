@@ -91,3 +91,16 @@ Navigation Bar
 Website Layout using HTML and CSS
 
 
+
+# JavaScript
+
+### Day 7
+
+JavaScript - How it works?
+
+- How to add it with HTML?
+- How console works? 
+- What is Document? 
+- How variables work in JS?
+- Operators
+ 
