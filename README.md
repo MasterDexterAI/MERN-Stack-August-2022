@@ -86,4 +86,21 @@ Table - border, width height, text-align, padding, tr:hover, tr:nth-child(even),
 
 Navigation Bar
 
-Website Layout
+### Day 6
+
+Website Layout using HTML and CSS
+
+
+
+# JavaScript
+
+### Day 7
+
+JavaScript - How it works?
+
+- How to add it with HTML?
+- How console works? 
+- What is Document? 
+- How variables work in JS?
+- Operators
+ 
