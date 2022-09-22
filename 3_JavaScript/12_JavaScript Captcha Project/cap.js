@@ -23,8 +23,8 @@ function captchaGenerator(){
 
 // validation function
 function isValid() {
-    var one = document.getElementById('main').value;
-    var two = document.getElementById('user').value;
+    var one = removeSpaces(document.getElementById('main').value);
+    var two = removeSpaces(document.getElementById('user').value);
 
     if(one == two){
         return true
@@ -36,3 +36,11 @@ function isValid() {
 
 
 // remove spaces
+
+function removeSpaces(goa){
+    var a = goa.split(" ")
+    //          ['a', 'f','g']
+    var x = a.join("")
+    //           'afg'
+    return x
+}
