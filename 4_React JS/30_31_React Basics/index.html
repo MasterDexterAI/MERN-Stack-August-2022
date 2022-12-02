@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Basics</title>
+    <style>
+        header{
+            background-color: blueviolet;
+            padding: 10Px;
+        }
+
+        .app1{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="root"></div>
+    <!-- SPA - Single Page Applications
+
+        CDN - Content Delivery Network
+
+        Babel - transpiler -> Translation Compiler
+     -->
+     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.0.0-beta.3/babel.min.js"></script>
+    <script type="text/babel">
+        // console.log(React);
+
+        const rootElement = document.querySelector('.root');
+
+        // const jsxElement = <h1>This is react</h1>
+
+        // const header = (
+        //     <header style={{ border: '2px solid red', color: 'blue', fontSize: '18px' }}>
+        //         <h1>Welcome</h1>
+        //         <h2>Lets start</h2>
+        //         <p>This is 2nd session of react</p>
+        //     </header>
+        // )
+
+        const style = { 
+            border: '2px solid red', 
+            color: 'blue', 
+            fontSize: '18px' 
+        }
+
+        const header = (
+            <header style={style}>
+                <h1>Welcome</h1>
+                <h2>Lets start</h2>
+                <p>This is 2nd session of react</p>
+            </header>
+        )
+
+        const mainStyle = {
+            backgroundColor: 'cyan',
+        }
+
+        const main =(
+            <main style={mainStyle}>
+                <p>This is JS sessions</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </main>
+        )
+        const footerStyle = {
+            backgroundColor: 'red',
+        }
+
+        const footer = (
+            <footer style={footerStyle}>
+                <p>Copyright 2022</p>
+            </footer>
+        )
+
+        const app = (
+            <div className='app1'>
+                {header}
+                {main}
+                {footer}
+            </div>
+        )
+
+        ReactDOM.render(app, rootElement);
+    </script>
+</body>
+</html>
